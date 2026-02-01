@@ -79,12 +79,12 @@ export function HelpButton() {
           </DialogHeader>
 
           <div className="overflow-y-auto flex-1 -mx-6 px-6 space-y-4 py-4">
-            <div className="rounded-lg bg-gradient-to-br from-rose-50 to-pink-50 border border-rose-200 p-5 space-y-3">
-              <h3 className="font-semibold text-rose-900 flex items-center gap-2">
+            <div className="rounded-lg bg-gradient-to-br from-rose-50 to-pink-50 dark:from-rose-950/40 dark:to-pink-950/40 border border-rose-200 dark:border-rose-800 p-5 space-y-3">
+              <h3 className="font-semibold text-rose-900 dark:text-rose-100 flex items-center gap-2">
                 <Sparkles className="h-4 w-4" />
                 Courage + Compassion
               </h3>
-              <p className="text-sm text-rose-800">
+              <p className="text-sm text-rose-800 dark:text-rose-200">
                 Great leaders don&apos;t avoid hard conversations — they handle
                 them with clarity and care. This tool gives you the frameworks,
                 scripts, and confidence to address any situation professionally.
